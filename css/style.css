@@ -1,4 +1,13 @@
 /****** CONTENU GLOBAL ******/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
 span {
   color: #2e999c;
   font-weight: 700;
@@ -56,7 +65,7 @@ header .nav2 a img {
   margin-right: 8px;
 }
 
-header .nav2 a {
+header .nav2 #entete2 a {
   text-decoration: none;
   color: black;
   margin-right: 60px;
@@ -66,6 +75,12 @@ header .nav2 a {
   color: #2e999c;
   font-weight: 700;
 }
+.nav2 #entete3 a {
+  text-decoration: none !important;
+  color: black;
+  margin-right: 0;
+}
+
 /******** FIN HEADER NAV 2 *******/
 
 /******* HEADER NAV 3 *********/
@@ -99,7 +114,7 @@ header .nav2 a {
 }
 
 .nav3 article {
-  margin: 50px 0 700px 800px;
+  margin: 300px auto 350px;
 }
 
 .nav3 span {
@@ -133,4 +148,30 @@ header .nav2 a {
 
 #presentation ul .decolle img {
   height: 69%;
+}
+
+/********** SCROLL 5 DIVS *********/
+
+.carroussel h2 {
+  margin: 80px 0 50px 0;
+  font-size: 40px;
+}
+
+.scroll1 {
+  width: 200px;
+}
+
+.scroll1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.scroll1 p {
+  font-size: 13px;
+}
+
+.etoiles .fas,
+.far {
+  color: yellow;
+  font-size: 15px;
 }
