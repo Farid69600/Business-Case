@@ -1,0 +1,136 @@
+/****** CONTENU GLOBAL ******/
+span {
+  color: #2e999c;
+  font-weight: 700;
+}
+
+.btns {
+  text-decoration: none;
+  color: white !important;
+  text-align: center;
+  background-color: orange;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/****** HEADER NAV 1 *******/
+
+header .nav1 .logo {
+  width: 50px;
+}
+
+header .nav1 a {
+  text-decoration: none;
+  color: black;
+}
+
+header .nav1 a img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.btn {
+  border: solid 1px black;
+  border-radius: 25px;
+  width: 350px;
+  text-align: left;
+  height: 35px;
+}
+
+header .nav1 p {
+  margin-left: 27px;
+  line-height: 5px;
+  font-style: italic;
+}
+
+/****** HEADER NAV 2 *******/
+
+header .nav2 {
+  background-color: rgba(46, 152, 156, 0.1);
+  padding: 10px;
+}
+
+header .nav2 a img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+header .nav2 a {
+  text-decoration: none;
+  color: black;
+  margin-right: 60px;
+}
+
+.nav2 span {
+  color: #2e999c;
+  font-weight: 700;
+}
+/******** FIN HEADER NAV 2 *******/
+
+/******* HEADER NAV 3 *********/
+
+.nav3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/chien-chat2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav3 div {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 120px;
+  padding: 25px 30px;
+}
+
+.nav3 a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-color: orange;
+  width: 300px;
+  padding: 8px;
+}
+
+.nav3 a img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.nav3 article {
+  margin: 50px 0 700px 800px;
+}
+
+.nav3 span {
+  color: #2e999c;
+  font-weight: 700;
+}
+/******* FIN HEADER NAV 3 *********/
+
+/****** SECTION PRESENTATION */
+
+.coeurs,
+.panda,
+.decolle {
+  text-align: left;
+  width: 28%;
+  margin-top: -80px;
+  background-color: white;
+  padding: 15px 15px;
+}
+
+#presentation ul img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+#presentation ul a {
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+}
+
+#presentation ul .decolle img {
+  height: 69%;
+}
