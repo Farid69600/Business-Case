@@ -25,6 +25,10 @@ span {
 
 /****** HEADER NAV 1 *******/
 
+header .nav1 i {
+  color: black;
+}
+
 header .nav1 .logo {
   width: 50px;
 }
@@ -174,4 +178,55 @@ header .nav2 #entete2 a {
 .far {
   color: yellow;
   font-size: 15px;
+}
+
+/**************************
+* MEDIA QUERIES MOBILE
+**************************/
+
+/******************************
+        RESPONSIVE
+******************************/
+
+@media (max-width: 767px) {
+  /* Ce code permet d’indiquer que la barre centrale fera 30px de large sur 2px de hauteur. */
+  #burger {
+    width: 30px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: relative;
+  }
+
+  /* On utilise ses pseudo-éléments before et after pour créer les barres du haut et du bas. Nous avons donc là notre burger fermé. Quand nous cliquerons dessus, ce dernier prendra une classe .open. */
+  #burger::before,
+  #burger::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    transform-origin: center;
+    transition: all 0.3s ease;
+  }
+  #burger::before {
+    top: -7px;
+  }
+  #burger::after {
+    top: 7px;
+  }
+
+  #burger.open {
+    background: transparent; /* la barre du milieu disparait */
+  }
+  /* celles du haut et du bas s'inclinent pour former une croix */
+  #burger.open::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  #burger.open::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
 }
