@@ -118,7 +118,7 @@ header .nav2 #entete2 a {
 }
 
 .nav3 article {
-  margin: 300px auto 350px;
+  margin: 200px auto 150px;
 }
 
 .nav3 span {
@@ -132,7 +132,7 @@ header .nav2 #entete2 a {
 .coeurs,
 .panda,
 .decolle {
-  text-align: left;
+  text-align: center;
   width: 28%;
   margin-top: -80px;
   background-color: white;
@@ -152,6 +152,10 @@ header .nav2 #entete2 a {
 
 #presentation ul .decolle img {
   height: 69%;
+}
+
+#presentation ul .coeurs img {
+  width: 25%;
 }
 
 /********** SCROLL 5 DIVS *********/
