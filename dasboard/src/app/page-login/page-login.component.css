@@ -1,0 +1,114 @@
+/****************************************************/
+
+/* Styles de base pour la page Web */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/****************************************************/
+
+/*
+  Dans la section,arrière-plan en couleur 
+  transparente pour donner l’impression
+  d’un « pop-up » par-dessus la page.
+*/
+section.sec-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 0, 0.149);
+}
+
+/*
+Div dans la section 
+*/
+section.sec-container > div {
+  width: 450px;
+
+  margin: auto;
+
+  padding: 20px;
+
+  text-align: center;
+
+  background: #eee;
+  border: 1px solid black;
+
+  border-radius: 5px;
+}
+
+/*
+    éléments à l’intérieur du formulaire
+    en « flexbox » sur une seule colonne.
+*/
+section.sec-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+  Nous voulons que les champs du formulaire prennent 
+  toute la largeur.
+  Le outline: 0; empêche d’avoir un surlignement de
+  l’objet au focus.
+  C’est moins bon au point de vue de l’accessibilité, 
+  mais plus joli du point vu du design.
+*/
+form input[type="password"],
+form input[type="text"],
+form button[type="submit"] {
+  margin-bottom: 32px;
+  padding: 16px;
+
+  color: #333;
+
+  border: 1px solid black;
+
+  border-radius: 5px;
+
+  outline: 0;
+}
+
+/*
+    Au survol des champs de saisie de texte,
+    nous changeons la couleur d’arrière-plan.
+*/
+form input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+  background-color: #ccc;
+}
+
+/*
+    Mises-en forme du bouton pour l’envoi du formulaire.
+*/
+form button[type="submit"] {
+  font-weight: bold;
+  color: #eee;
+  text-transform: uppercase;
+
+  background-color: blue;
+}
+
+/*
+    Mises-en forme du bouton pour l’envoi du formulaire au survol et au focus.
+*/
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+  background-color: rgba(55, 55, 164, 0.51);
+}
