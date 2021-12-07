@@ -1,22 +1,19 @@
-<body>
+<div class="container">
 
-    <div class="container">
+    <section class="sec-container">
+        <div>
+            <header>
+                <h2>Veuillez vous identifier</h2>
+            </header>
 
-        <section class="sec-container">
-            <div>
-                <header>
-                    <h2>Veuillez vous identifier</h2>
-                </header>
+            <form action="" method="post" (ngSubmit)="naviguerPageStat()">
 
-                <form action="" method="post">
+                <input type="text" name="username" placeholder="Identifiant" required="required" />
+                <input type="password" name="password" placeholder="Mot de passe" required="required" />
+                <button type="submit">Connexion</button>
 
-                    <input type="text" name="username" placeholder="Nom d'utilisateur" required="required" />
-                    <input type="password" name="password" placeholder="Mot de passe" required="required" />
-                    <button type="submit">Connexion</button>
+            </form>
+        </div>
+    </section>
 
-                </form>
-            </div>
-        </section>
-
-    </div>
-</body>
+</div>
