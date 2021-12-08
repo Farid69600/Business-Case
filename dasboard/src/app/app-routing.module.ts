@@ -18,6 +18,7 @@ const routes: Routes = [
       {
         path: 'page-analyse',
         component: PageAnalyseComponent,
+        canActivate: [AuthGuard],
       },
       { path: '**', redirectTo: 'page-analyse' },
     ],

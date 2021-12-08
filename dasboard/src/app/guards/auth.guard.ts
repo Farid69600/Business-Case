@@ -12,6 +12,7 @@ import { AuthService } from '../services/auth.service';
   providedIn: 'root',
 })
 export class AuthGuard implements CanActivate {
+  router: any;
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
@@ -20,6 +21,7 @@ export class AuthGuard implements CanActivate {
     | Promise<boolean | UrlTree>
     | boolean
     | UrlTree {
+    if (!this.authServ.estConnecte) this.router.navigateByUrl('connexion');
     return this.authServ.estConnecte;
   }
 
