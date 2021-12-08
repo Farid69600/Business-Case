@@ -9,19 +9,11 @@
 ul {
   list-style-type: none;
   background-color: blue;
-  flex: 1;
   width: 200px;
   height: 100vh;
-  /* padding: 30px 0 10px; */
   border: solid 2px black;
   margin: 0;
-}
-
-.capard {
-  text-align: center;
-}
-
-h4 {
+  padding: 0;
   text-align: center;
 }
 
