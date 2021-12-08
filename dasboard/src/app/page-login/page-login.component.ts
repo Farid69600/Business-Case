@@ -17,5 +17,6 @@ export class PageLoginComponent implements OnInit {
 
   naviguerPageStat() {
     this.router.navigate(['page-stat']);
+    console.log();
   }
 }

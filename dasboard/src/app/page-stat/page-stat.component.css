@@ -1,9 +1,14 @@
+.mesAnalyses {
+  display: flex;
+}
+
 ul {
   list-style-type: none;
   background-color: blue;
   width: 200px;
-  height: 100%;
+  height: 800px;
   padding: 30px 0 10px;
+  border: solid 2px black;
 }
 
 ul a {
@@ -25,4 +30,10 @@ h3 {
 
 ul img {
   width: 150px;
+  margin-bottom: 10px;
+}
+
+fa-icon {
+  font-size: 20px;
+  margin-right: 10px;
 }

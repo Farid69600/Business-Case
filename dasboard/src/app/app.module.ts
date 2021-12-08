@@ -11,9 +11,10 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { PageLoginComponent } from './page-login/page-login.component';
 import { PageStatComponent } from './page-stat/page-stat.component';
 import { FormsModule } from '@angular/forms';
+import { PageAnalyseComponent } from './page-stat/page-analyse/page-analyse.component';
 
 @NgModule({
-  declarations: [AppComponent, PageLoginComponent, PageStatComponent],
+  declarations: [AppComponent, PageLoginComponent, PageStatComponent, PageAnalyseComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
