@@ -1,0 +1,8 @@
+.infoStats {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 15px;
+  margin: 50px;
+}
