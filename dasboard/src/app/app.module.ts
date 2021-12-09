@@ -14,10 +14,24 @@ import { FormsModule } from '@angular/forms';
 import { PageAnalyseComponent } from './page-stat/page-analyse/page-analyse.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DonneesCommercialesComponent } from './page-stat/page-analyse/donnees-commerciales/donnees-commerciales.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, PageLoginComponent, PageStatComponent, PageAnalyseComponent, DonneesCommercialesComponent],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, FormsModule, BrowserAnimationsModule],
+  declarations: [
+    AppComponent,
+    PageLoginComponent,
+    PageStatComponent,
+    PageAnalyseComponent,
+    DonneesCommercialesComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FontAwesomeModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
