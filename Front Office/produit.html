@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c26abe539e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Business Case Farid</title>
+</head>
+
+<body>
+    <header>
+        <article>
+            <!-- HEADER NAV1 -->
+            <nav class="nav1 container-xl">
+                <div id="entete1" class="d-flex justify-content-between align-items-center mt-3">
+                    <a href="#"><img src="img/empreintes-de-pattes.png" class="logo" alt="logo">La Nîmes'alerie</a>
+                    <a href="#" target="_blank" class="btn">Rechercher un produit...</a>
+                    <a href="#"><img src="img/compte-utilisateur.png" alt="logo compte">Bonjour
+                        <span>Farid</span>
+                        <p>Accéder à votre compte</p>
+                    </a>
+                    <a href="#"><i class="far fa-heart"></i> Liste d'envie</a>
+                    <a href="#"><img src="img/panier.png" alt="panier">Panier</a>
+                </div>
+            </nav>
+
+            <!-- HEARDER NAV2 -->
+            <nav class="nav2 ">
+                <article class=" container-xl d-flex justify-content-between align-items-center mt-2 ">
+                    <a id="link" href="#"><span id="burger"></span></a>
+                    <div id="entete2">
+                        <a href="#"><img src="img/menu.png" class="logo" alt="panier">Toutes les catégories</a>
+                        <a href="#">Chiens</a>
+                        <a href="#">Chats</a>
+                        <a href="#">Pandas</a>
+                        <a href="#">Accessoires</a>
+                        <a href="#">Offres flash</a>
+                        <a href="#"> 🚀 Envoyer votre animal dans l'espace</a>
+                    </div>
+                    <div id="entete3">
+                        <a href="#"><img src="img/livraison.png" class="livraison" alt="livraison">Livraison
+                            <span>gratuite</span> à partir
+                            de 30€</a>
+                    </div>
+                </article>
+            </nav>
+
+<!-- *********************************************************************************************************************** -->
+
+<main>
+    <div class="container">
+        <div class="row mt-5">
+            <!------------- DEBUT PHOTOS PRODUITS --------------->
+            <article class="row col-6">
+                <ul class="col-2">
+                    <li class="mb-2">
+                        <img src="img/royalCaninCro.png" alt="" />
+                    </li>
+                    <li class="mb-2">
+                        <img src="img/royalCaninCro.png" alt="" />
+                    </li>
+                    <li class="mb-2">
+                        <img src="img/royalCaninCro.png" alt="" />
+                    </li>
+                    <li class="mb-2">
+                        <img src="img/royalCaninCro.png" alt="" />
+                    </li>
+                </ul>
+
+                <div class="col-10">
+                    <img src="img/royalCaninCro.png" alt="" />
+                </div>
+            </article>
+            <!------------- FIN PHOTOS PRODUITS --------------->
+
+
+<!------------- FIN DESCRIPTIF  produits, prix, quantité... --------------->
+            <article class="row col-6">
+                <div class="descriptif">
+                    <h2>Croquettes adult "Royal Canin"</h2>
+                    <h4>Conditionnement par 10 ou 20 kg</h4>
+                    <br>
+                    <h2>45 € / les 20 kg</h2>
+                    <h2>25 € / les 10 kg</h2>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit odio atque doloribus hic reprehenderit incidunt voluptatum cumque neque expedita earum quae veniam est, voluptatibus dolores fugiat animi ipsum beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit odio atque doloribus hic reprehenderit incidunt
+                    voluptatum cumque neque expedita earum quae veniam est, voluptatibus dolores fugiat animi ipsum beatae. 
+                </p>
+                <div class="d-flex mt-2 col-6">
+                    <p class="me-2">Quantité</p>
+                    <div id="sizes" class="d-flex flex-column">
+                        <div>
+                            <input type="checkbox" id="" />
+                            <label for="">10 kg</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="" />
+                            <label for="">20 kg</label>
+                        </div>
+                        <select name="pets" id="pet-select">
+                            <option value="">--Choisissez votre quantité--</option>
+                            <option value="royalCanin">1</option>
+                            <option value="royalCanin">2</option>
+                            <option value="royalCanin">3</option>
+                            <option value="royalCanin">4</option>
+                            <option value="royalCanin">5</option>
+                        </select>
+                    </div>
+                </div>
+                            
+                <div class="buttons d-flex justify-content-end align-items-center">
+                    <button class="btn">Ajouter au panier</button>
+                    <button class="btn">Commander</button>
+                </div>
+            </article>
+<!------------- FIN DESCRIPTIF  produits, prix, quantité... --------------->
+   
+<!---------------- DEBUT PAIEMENT --------------->
+<section id="paiement" class="container">
+    <div class="row justify-content-center">
+        <ul class="col-12 d-flex justify-content-between flex-wrap my-0 my-md-5">
+            <li class="col-12 col-md-auto my-4 my-md-0">
+                <i class="fas fa-lock"></i>
+                <p>Paiement sécurisé</p>
+            </li>
+            <li class="col-12 col-md-auto my-4 my-md-0">
+                <i class="fas fa-truck"></i>
+                <p>Livraison 24h/48h maxi</p>
+            </li>
+            <li class="col-12 col-md-auto my-4 my-md-0">
+                <i class="fas fa-undo"></i>
+                <p>Retour accepté sous 15 jours</p>
+            </li>
+            <li class="col-3 col-md-auto my-4 my-md-0">
+                <img src="img/Visa_Inc._logo.png" alt="Visa" />
+            </li>
+            <li class="col-3 col-md-auto my-4 my-md-0">
+                <img src="img/Mastercard-logo.png" alt="Mastercard" />
+            </li>
+            <li class="col-3 col-md-auto my-4 my-md-0">
+                <img src="img/PayPal-2.png" alt="Paypal" />
+            </li>
+        </ul>
+    </div>
+    <!------------------- div .row --------------------->
+</section>
+<!------------------ section .container ------------------>
+<!---------------- FIN PAIEMENT --------------->
+
+<!-------------- NOTRE SELECTION POUR VOUS ---------------------------->
+<section class="carroussel container-xl">
+    <h2>Notre <span>sélection</span> pour vous</h2>
+    <ul class="scroll d-flex justify-content-evenly mt-5">
+
+        <li class="scroll1 d-flex flex-column align-items-center ms-5">
+            <img src="img/royalCaninCro.png" alt="">
+            <p class="text-center mt-3">Les croquettes Royal Canin maxi adulte sont formulées pour répondre aux
+                besoins nutritionnels des
+                chiens adultes</p>
+            <div class="etoiles d-flex align-items-lg-baseline">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="ms-3">58 avis</p>
+            </div>
+            <h3>50 €</h3>
+        </li>
+        <li class="scroll1 d-flex flex-column align-items-center ms-5">
+            <img src="img/royalCaninPate.png" alt="">
+            <p class="text-center mt-3">Les croquettes Royal Canin maxi adulte sont formulées pour répondre aux
+                besoins nutritionnels des
+                chiens adultes</p>
+            <div class="etoiles d-flex align-items-lg-baseline">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <p class="ms-3">58 avis</p>
+            </div>
+            <h3>25 €</h3>
+        </li>
+        <li class="scroll1 d-flex flex-column align-items-center ms-5">
+            <img src="img/berger_royal canin.png" alt="">
+            <p class="text-center mt-3">Les croquettes Royal Canin maxi adulte sont formulées pour répondre aux
+                besoins nutritionnels des
+                chiens adultes</p>
+            <div class="etoiles d-flex align-items-lg-baseline">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <p class="ms-3">58 avis</p>
+            </div>
+            <h3>35 €</h3>
+        </li>
+        <li class="scroll1 d-flex flex-column align-items-center ms-5">
+            <img src="img/gourmet.png" alt="">
+            <p class="text-center mt-3">Les croquettes Royal Canin maxi adulte sont formulées pour répondre aux
+                besoins nutritionnels des
+                chiens adultes</p>
+            <div class="etoiles d-flex align-items-lg-baseline">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="ms-3">58 avis</p>
+            </div>
+            <h3>40 €</h3>
+        </li>
+        <li class="scroll1 d-flex flex-column align-items-center ms-5">
+            <img src="img/eukanuba.png" alt="">
+            <p class="text-center mt-3">Les croquettes Royal Canin maxi adulte sont formulées pour répondre aux
+                besoins nutritionnels des
+                chiens adultes</p>
+            <div class="etoiles d-flex align-items-lg-baseline">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <p class="ms-3">58 avis</p>
+            </div>
+            <h3>50 €</h3>
+        </li>
+    </ul>
+</section>
+<!-------------- FIN NOTRE SELECTION POUR VOUS ---------------------------->
+
+<!-------------------- DEBUT AVIS CLIENT --------------------->
+<section class="container my-5" id="clients">
+    <div class="row">    
+        <article id="avis_clients" class="col 12 col-md-6 justify-content-center my-3 my-md-0">
+            <ul>
+                <li>
+                    <div>
+                        <span>
+                            <img src="img/amina.jpg" alt="lol" />
+                            <p>Avis : Amina</p>
+                        </span>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Deserunt, sit eum nihil doloremque iusto consequatur aliquid.
+                        Perferendis, itaque cumque? Quia consectetur adipisci quaerat
+                        deleniti in temporibus ex itaque similique. Nulla.
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <div>
+                        <span>
+                            <img src="img/karim.jpg" alt="lol" />
+                            <p>Avis : Karim</p>
+                        </span>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Deserunt, sit eum nihil doloremque iusto consequatur aliquid.
+                        Perferendis, itaque cumque? Quia consectetur adipisci quaerat
+                        deleniti in temporibus ex itaque similique. Nulla.
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <div>
+                        <span>
+                            <img src="img/florian.jpg" alt="lol" />
+                            <p>Avis : Florian</p>
+                        </span>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Deserunt, sit eum nihil doloremque iusto consequatur aliquid.
+                        Perferendis, itaque cumque? Quia consectetur adipisci quaerat
+                        deleniti in temporibus ex itaque similique. Nulla.
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </div>
+</section>
+<!------------------ section .container -------------------->
+<!---------------- FIN AVIS CLIENTS --------------->
+
+</main>
+
+
+<!-- *********************************************************************************************************************** -->
+            
+        <!---------------- DEBUT FOOTER --------------->
+        <footer class="mt-5 p-5 ">
+            <div class="container-xl d-flex justify-content-around mt-2 ">
+                <ul class=" col-12 col-md-4 mt-3 my-md-0 text-center text-md-start">
+                    <li>
+                        <h3>Aides & informations</h3>
+                    </li>
+                    <li>Assistance</li>
+                    <li>Suivi commande</li>
+                    <li>Livraison & retour</li>
+                    <li>Assurance décès</li>
+                </ul>
+
+                <ul class="col-12 col-md-4 my-3 my-md-0 text-center text-md-start">
+                    <li>
+                        <h3>Nos engagements</h3>
+                    </li>
+                    <li>Gestion des cookies</li>
+                    <li>Engagements et qualités</li>
+                    <li>Données personnelles et sécurité</li>
+                    <li>Partenaires</li>
+                </ul>
+
+                <!---------------- DEBUT ICONS --------------->
+                <ul class=" col-12 col-md-4 mt-3 my-md-0 text-center text-md-start">
+                    <li>
+                        <h3>Suivez-nous</h3>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.pinterest.fr/" target="blank"><i class="fab fa-pinterest-p "></i></a>
+                    </li>
+                </ul>
+                <!---------------- FIN  ICONS --------------->
+            </div>
+            <!------------- div .container ------------>
+
+        </footer>
+        <!---------------- FIN FOOTER --------------->
+
+
+        <!-- ********************************************************** -->
+
+
+
+    </main>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
